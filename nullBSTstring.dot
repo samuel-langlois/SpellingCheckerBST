@@ -1,0 +1,32 @@
+digraph BST {
+node [shape=record]
+Method50[label="<L> |<D> Method50|<R> "]
+Method40[label="<L> |<D> Method40|<R> "]
+Method30[label="<L> |<D> Method30|<R> "]
+Method25[label="<L> |<D> Method25|<R> "]
+Method30:L -> Method25:D
+Method39[label="<L> |<D> Method39|<R> "]
+Method30:R -> Method39:D
+Method40:L -> Method30:D
+Method45[label="<L> |<D> Method45|<R> "]
+Method43[label="<L> |<D> Method43|<R> "]
+Method45:L -> Method43:D
+Method47[label="<L> |<D> Method47|<R> "]
+Method45:R -> Method47:D
+Method40:R -> Method45:D
+Method50:L -> Method40:D
+Method60[label="<L> |<D> Method60|<R> "]
+Method55[label="<L> |<D> Method55|<R> "]
+Method53[label="<L> |<D> Method53|<R> "]
+Method55:L -> Method53:D
+Method58[label="<L> |<D> Method58|<R> "]
+Method55:R -> Method58:D
+Method60:L -> Method55:D
+Method70[label="<L> |<D> Method70|<R> "]
+Method69[label="<L> |<D> Method69|<R> "]
+Method70:L -> Method69:D
+Method80[label="<L> |<D> Method80|<R> "]
+Method70:R -> Method80:D
+Method60:R -> Method70:D
+Method50:R -> Method60:D
+}

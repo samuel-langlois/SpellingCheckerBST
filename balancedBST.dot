@@ -1,0 +1,24 @@
+digraph BST {
+node [shape=record]
+45[label="<L> |<D> 45|<R> "]
+30[label="<L> |<D> 30|<R> "]
+25[label="<L> |<D> 25|<R> "]
+30:L -> 25:D
+39[label="<L> |<D> 39|<R> "]
+30:R -> 39:D
+45:L -> 30:D
+60[label="<L> |<D> 60|<R> "]
+55[label="<L> |<D> 55|<R> "]
+53[label="<L> |<D> 53|<R> "]
+55:L -> 53:D
+58[label="<L> |<D> 58|<R> "]
+55:R -> 58:D
+60:L -> 55:D
+70[label="<L> |<D> 70|<R> "]
+69[label="<L> |<D> 69|<R> "]
+70:L -> 69:D
+80[label="<L> |<D> 80|<R> "]
+70:R -> 80:D
+60:R -> 70:D
+45:R -> 60:D
+}
