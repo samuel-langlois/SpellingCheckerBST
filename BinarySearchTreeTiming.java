@@ -7,7 +7,10 @@ import java.util.Random;
 import java.util.TreeSet;
 
 /**
+ * Tests the Runtime of the BST
+ * 
  * @author Samuel Langlois and Noah Garff
+ * 
  **/
 public class BinarySearchTreeTiming {
 	private static Random rand;

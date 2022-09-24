@@ -8,6 +8,13 @@ import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+/*****
+ * This tests the functionality of the the Spell Checker
+ * 
+ * @author Samuel Langlois and Noah Graff
+ * 
+ */
+
 class SpellCheckerTest {
 	
 	SpellChecker nullDictionary,

@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * A small demonstration of the SpellChecker class.
  * 
- * @author Erin Parker
+ * @author Erin Parker, Samuel Langlois, Noah Garff
  * @version March 17, 2021
  */
 public class SpellCheckerDemo {

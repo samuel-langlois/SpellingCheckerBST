@@ -8,6 +8,13 @@ import java.util.Collection;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+/*****
+ * This tests the functionality of the BST
+ * 
+ * @author Samuel Langlois and Noah Graff
+ * 
+ */
+
 class BinarySearchTreeTest {
 	private BinarySearchTree<Integer> bst, nullBTS, bigBST, balancedBST;
 	BinarySearchTree<String> nullBSTstring;

@@ -10,7 +10,7 @@ import java.util.NoSuchElementException;
  * their natural ordering (i.e., each item must be Comparable). Note that this
  * interface is much like Java's SortedSet, but simpler.
  * 
- * @author Erin Parker
+ * @author Erin Parker, Samuel Langlois, Noah Garff
  * @version March 17, 2021
  */
 public interface SortedSet<Type extends Comparable<? super Type>> {
